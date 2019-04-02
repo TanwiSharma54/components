@@ -4,8 +4,14 @@
       </mat-card-title>
       <mat-card-content>
           √ &nbsp; of &nbsp; 
-          <input type="number" [(ngModel)]='numberToSquare'>
-          <button (click)='squareNumber()'>=</button>
+          <mat-form-field>
+            <input 
+                matInput 
+                type="number" 
+                [(ngModel)]='numberToSquare'
+                placeholder="Number to Square">
+          </mat-form-field>
+          <button mat-raised-button (click)='squareNumber()'>=</button>
           &nbsp;
           {{ answer }}
         </mat-card-content>
