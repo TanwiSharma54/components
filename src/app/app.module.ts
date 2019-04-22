@@ -25,6 +25,7 @@ import { DlnMultiplyComponent } from './dln-multiply/dln-multiply.component';
 import { Slackntell6Component } from './slackntell6/slackntell6.component';
 import { AppSsoperComponent } from './app-ssoper/app-ssoper.component';
 import { ZpcSubtractComponent } from './zpc-subtract/zpc-subtract.component';
+import { TsMultiplicationComponent } from './ts-multiplication/ts-multiplication.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,7 @@ import { ZpcSubtractComponent } from './zpc-subtract/zpc-subtract.component';
     , BoMultiplicationComponent
     , AppSsoperComponent
     , DcSquareComponent
-    , Slackntell6Component, ZpcSubtractComponent
+    , Slackntell6Component, ZpcSubtractComponent, TsMultiplicationComponent
   ],
   imports: [
     BrowserModule
